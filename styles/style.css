@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: sans-serif;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container {
+	padding: 5em 2em;
+}
+
+.primary-title {
+	text-align: center;
+	margin: 1em 0;
+	font-size: 3em;
+	color: #31393c;
+}
+
+.member-box {
+	padding: 4em 1.5em;
+	float: left;
+	border: 1px solid black;
+	width: 30em;
+	min-height: 50em;
+	margin-right: 1em;
+	margin-top: 2em;
+	position: relative;
+}
+
+.crown-icon {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+
+.member-image {
+	margin: 0 auto;
+	display: block;
+	border-radius: 50%;
+	height: 100;
+	width: 100;
+}
+
+.member-fullName {
+	margin: 0.2em 0;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 100;
+}
+
+.member-details {
+	font-size: 1.4em;
+	margin: 1em 0;
+	min-height: 3em;
+}
+
+.member-roles {
+	position: absolute;
+	bottom: 1em;
+}
+
+.member-roles .member-role:not(:first-child) {
+	margin-left: 1em;
+}
+
+.member-role {
+	display: inline-block;
+	font-size: 1.4em;
+	color: white;
+	padding: 0.2em 1em;
+}
+
+.form-filter {
+	background: #e6e8e6;
+	padding: 2em;
+	border-radius: 1em;
+}
+
+.form-group {
+	font-size: 1.4em;
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.form-text {
+	font-size: 1.4em;
+	margin-bottom: 0.5em;
+}
+
+.btn {
+	padding: 0.5em 1em;
+	outline: none;
+	font-family: inherit;
+	font-size: 1.4em;
+	cursor: pointer;
+	border: 0;
+	margin-top: 0.5em;
+	color: white;
+	min-width: 6em;
+}
+.btn:hover {
+	background-color: #2176ff;
+	color: white;
+}
+.btn:active {
+	background-color: #2b2d42;
+	color: white;
+}
+.btn-primary {
+	background-color: #33a1fd;
+}
+
+.btn-secondary {
+	background-color: #31393c;
+}
