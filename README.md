@@ -3,5 +3,3 @@
 ## Technologies
 
 HTML, CSS, JS 
-
-##Screenshot
