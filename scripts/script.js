@@ -27,7 +27,7 @@ var createEmployee = function (memberDetails) {
 	var htmlStr = ''
 	htmlStr += `
 		<div class="member-box">
-			${memberDetails.isFeatured ? `<img height="20" class="crown-icon" src='./assets/images/crown.png'/>` : ''}
+			${memberDetails.isFeatured ? `<div class='crown-icon'>&#x1f451</div>` : ''}
 			${memberDetails.hasPic ? `<img height="100" class="member-image" src='${memberDetails.userImage}'/>` : ''}
 			<h3 class="member-fullName">${memberDetails.fullName}</h3>
 			<p class="member-details">${memberDetails.employeeDescription}</p>
